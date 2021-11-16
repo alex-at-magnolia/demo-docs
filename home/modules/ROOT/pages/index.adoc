@@ -1,0 +1,18 @@
+= {project} internal docs
+
+placeholder
+
+== Use kroki for diagrams
+
+.User login flow example (from MT)
+[mermaid,role="zoom"]
+....
+sequenceDiagram
+    User->>+Cockpit: Calls the protected URL.
+    Cockpit->>+SSO module: Magnolia detects access request.
+    SSO module->>+IAM server: Redirect to IAM.
+    IAM server->>+User: Request credentials.
+    User->>+IAM server: Send credentials (correct).
+    IAM server->>+User: Token with scope issued.
+    User->>+Cockpit: Successful login.
+....

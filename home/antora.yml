@@ -1,0 +1,10 @@
+name: home
+title: Magnolia Demo Docs Home
+version: master
+nav:
+- modules/ROOT/nav.adoc
+
+asciidoc:
+  attributes:
+    project: Magnolia Demo Documentation
+    
