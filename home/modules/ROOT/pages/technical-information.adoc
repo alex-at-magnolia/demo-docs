@@ -1,5 +1,5 @@
 = Technical information
 
-icon:cog[spin,2x] This page is a _work in progress_ as of {localdate}.
+icon:cog[spin] This page is a _work in progress_ as of {localdate}.
 
 CAUTION: The Salesforce sandbox is only available from `9:00 AM` to `6:00` PM (`UTC`)! 
