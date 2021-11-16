@@ -4,6 +4,8 @@ This site is a work-in-progress as of {localdate}.
 
 The publish date is for icon:calendar[] 1st December.::
 
+JUST SHOWING A PR TRIGGER TEST
+
 {sp} +
 
 == Use kroki for diagrams
