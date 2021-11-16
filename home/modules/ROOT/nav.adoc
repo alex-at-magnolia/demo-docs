@@ -1,1 +1,3 @@
 * xref:index.adoc[Welcome]
+* xref:demo-tutorial.adoc[]
+* xref:technical-information.adoc[]
