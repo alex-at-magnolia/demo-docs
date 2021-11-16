@@ -1,0 +1,11 @@
+= Features
+
+The Magnolia features that make up this page are:
+
+[cols="3s,7a"]
+|===
+|Feature |Notes
+
+include::partial$snippets/magnolia-features.adoc[tags="{features}"]
+
+|===

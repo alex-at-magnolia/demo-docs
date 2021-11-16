@@ -1,0 +1,50 @@
+
+// tag::carousel[]
+|Carousel
+|The carousel does support video.
+// end::carousle[]
+
+// tag::color-picker[]
+|Text color picker
+|Made possible with the link:https://marketplace.magnolia-cms.com/detail/javascript-dialog-fields.html[JS Dialog Fields module^].
+// end::color-picker[]
+
+// tag::campaign-manager[]
+|link:https://marketplace.magnolia-cms.com/detail/campaign-manager.html[Campaign manager module^]
+|
+// end::campaign-manager[]
+
+// tag::attraqt[]
+|Attraqt product recommendation
+|This presents an opportunity to upsell and cross-sell.
+// end::attraqt[]
+
+// tag::component-personalization[]
+|link:https://docs.magnolia-cms.com/product-docs/6.2/Features/Personalization/Component-personalization.html[Component personalization^]
+|
+// end::component-personalization[]
+
+// tag::commercetools[]
+|link:https://marketplace.magnolia-cms.com/detail/commercetools.html[Commercetools^]
+|
+// tag::commercetools[]
+
+// tag::filtering[]
+|Filtering
+|
+// end::filtering[]
+
+// tag::stories-app[]
+|link:https://docs.magnolia-cms.com/product-docs/6.2/Apps/List-of-apps/Stories-app.html[Stories app^]
+|Comes with internationalization.
+// end::stories-app[]
+
+// tag::focal-hotspot[]
+|Focal hotspots
+|Made possible with the link:https://marketplace.magnolia-cms.com/detail/image-focal-points.html[DAM focal module^].
+// end::focal-hotspot[]
+
+// tag::content-type[]
+|
+|
+// end::content-type[]

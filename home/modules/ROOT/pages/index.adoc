@@ -25,7 +25,6 @@ icon:cog[spin] This page is a _work in progress_ as of {localdate}. Please bear 
 
 |===
 
----
 
 == The Demo Pages
 
@@ -37,8 +36,10 @@ The sections below provide you with a quick view into the site page and lists th
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// modules
-include::partial$r_magnolia-modules.adoc[leveloffset=+3]
+
+// features
+:features: carousel,color-picker
+include::partial$r_magnolia-features.adoc[leveloffset=+3]
 
 === Subpages
 
@@ -50,8 +51,8 @@ NOTE: The page previewed below is the *Living* page.
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/living" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// modules
-include::partial$r_magnolia-modules.adoc[leveloffset=+3]
+// features
+include::partial$r_magnolia-features.adoc[leveloffset=+3]
 
 === Inspirations page
 
@@ -59,8 +60,8 @@ include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/inspirations" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// modules
-include::partial$r_magnolia-modules.adoc[leveloffset=+3]
+// features
+include::partial$r_magnolia-features.adoc[leveloffset=+3]
 
 === Blog
 
@@ -68,8 +69,8 @@ include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/blog" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// modules
-include::partial$r_magnolia-modules.adoc[leveloffset=+3]
+// features
+include::partial$r_magnolia-features.adoc[leveloffset=+3]
 
 === Events page
 
@@ -77,8 +78,8 @@ include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/events" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// modules
-include::partial$r_magnolia-modules.adoc[leveloffset=+3]
+// features
+include::partial$r_magnolia-features.adoc[leveloffset=+3]
 
 === Poll
 
@@ -86,5 +87,5 @@ include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/poll" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// modules
-include::partial$r_magnolia-modules.adoc[leveloffset=+3]
+// features
+include::partial$r_magnolia-features.adoc[leveloffset=+3]
