@@ -58,7 +58,7 @@ include::partial$r_magnolia-features.adoc[leveloffset=+2]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/inspirations" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// features#
+// features
 :features: commercetools,filtering
 include::partial$r_magnolia-features.adoc[leveloffset=+2]
 
@@ -97,3 +97,5 @@ include::partial$r_magnolia-features.adoc[leveloffset=+2]
 // features
 :features: others
 include::partial$r_magnolia-features.adoc[leveloffset=+2]
+
+:features: reset
