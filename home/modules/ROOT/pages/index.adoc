@@ -1,26 +1,131 @@
 = {project}
 
-This site is a work-in-progress as of {localdate}.
+// just styles for the iframes
+include::partial$styles.adoc[]
 
-The publish date is for icon:calendar[] 1st December.::
+This site is here to provide you with information on our Magnolia e-commerce demo site. We hope to provide you with a good understanding of each of demo pages as well as what Magnolia modules make up that particular page.
 
-{sp} +
+icon:cogs[spin] This page is a _work in progress_ as of {localdate}. Please bear with us while we continue to improve the site.
 
-TIP: I am testing out PRs triggering builds.
+[cols="3s,7a"]
+|===
+|Site |URL
 
-{sp} +
+|Live
+|link:https://ecommerce-headless-public.magnolia-cms-demo.com/home/[^]
 
-== Use kroki for diagrams
+|Author
+|link:http://ecommerce-headless-author.magnolia-cms-demo.com/[^]
 
-.Major Tom example
-[mermaid,role="zoom"]
-....
-sequenceDiagram
-    User->>+Cockpit: Calls the protected URL.
-    Cockpit->>+SSO module: Magnolia detects access request.
-    SSO module->>+IAM server: Redirect to IAM.
-    IAM server->>+User: Request credentials.
-    User->>+IAM server: Send credentials (correct).
-    IAM server->>+User: Token with scope issued.
-    User->>+Cockpit: Successful login.
-....
+|Public
+|link:https://ecommerce-headless-public.magnolia-cms-demo.com/[^]
+
+|Source repository (`git`)
+|link:https://git.magnolia-cms.com/projects/DEMOS/repos/services-demos-common/browse[^]
+
+|===
+
+---
+
+== The Demo Pages
+
+The sections below provide you with a quick view into the site page and lists the modules that contribute to building the page.
+
+=== Home page
+
+++++
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" title="Magnolia e-commerce demo page"></iframe>
+++++
+
+==== Modules
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+include::partial$r_magnolia-modules.adoc[]
+
+|===
+
+=== Subpages
+
+The subpages consist of the *Living*, *Dining*, *Bathroom*, and *Garden* pages.
+
+NOTE: The page previewed below is the *Living* page.
+
+++++
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/living" title="Magnolia e-commerce demo page"></iframe>
+++++
+
+==== Modules
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+include::partial$r_magnolia-modules.adoc[]
+
+|===
+
+=== Inspirations page
+
+++++
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/inspirations" title="Magnolia e-commerce demo page"></iframe>
+++++
+
+==== Modules
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+include::partial$r_magnolia-modules.adoc[]
+
+|===
+
+=== Blog
+
+++++
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/blog" title="Magnolia e-commerce demo page"></iframe>
+++++
+
+==== Modules
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+include::partial$r_magnolia-modules.adoc[]
+
+|===
+
+=== Events page
+
+++++
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/events" title="Magnolia e-commerce demo page"></iframe>
+++++
+
+==== Modules
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+include::partial$r_magnolia-modules.adoc[]
+
+|===
+=== Poll
+
+++++
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/poll" title="Magnolia e-commerce demo page"></iframe>
+++++
+
+==== Modules
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+include::partial$r_magnolia-modules.adoc[]
+
+|===

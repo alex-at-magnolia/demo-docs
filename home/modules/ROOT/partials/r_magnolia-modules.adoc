@@ -1,0 +1,26 @@
+.Magnolia modules
+****
+The Magnolia modules that make up this page are:
+
+[cols="3s,7a"]
+|===
+|Module |Notes
+
+|Carousel
+|The carousel does support video.
+
+|link:https://marketplace.magnolia-cms.com/detail/javascript-dialog-fields.html[JS Dialog Fields module^]
+|Text colour picker
+
+|link:https://marketplace.magnolia-cms.com/detail/campaign-manager.html[Campaign manager module^]
+|
+
+|Attraqt product recommendation, upsell and cross-sell
+|
+
+|link:https://docs.magnolia-cms.com/product-docs/6.2/Features/Personalization/Component-personalization.html[Component personalization^]
+|
+
+|===
+
+****
