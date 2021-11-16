@@ -12,7 +12,7 @@ TIP: I am testing out PRs triggering builds.
 
 == Use kroki for diagrams
 
-.Major Tom exmaple
+.Major Tom example
 [mermaid,role="zoom"]
 ....
 sequenceDiagram
