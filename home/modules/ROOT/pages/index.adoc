@@ -52,7 +52,7 @@ NOTE: The page previewed below is the *Living* page.
 ++++
 
 // features
-:features: 
+:features: dsfasd
 include::partial$r_magnolia-features.adoc[leveloffset=+3]
 
 === Inspirations page
