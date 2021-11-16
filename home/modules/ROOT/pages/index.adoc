@@ -1,6 +1,6 @@
 = {project}
 
-placeholder
+This site is a work-in-progress as of {localdate}.
 
 == Use kroki for diagrams
 
