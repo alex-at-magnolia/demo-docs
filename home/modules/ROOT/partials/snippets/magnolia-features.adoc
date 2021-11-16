@@ -2,7 +2,7 @@
 // tag::carousel[]
 |Carousel
 |The carousel does support video.
-// end::carousle[]
+// end::carousel[]
 
 // tag::color-picker[]
 |Text color picker
@@ -27,7 +27,7 @@
 // tag::commercetools[]
 |link:https://marketplace.magnolia-cms.com/detail/commercetools.html[Commercetools^]
 |
-// tag::commercetools[]
+// end::commercetools[]
 
 // tag::filtering[]
 |Filtering
@@ -49,10 +49,10 @@
 |Made possible with the link:https://docs.magnolia-cms.com/product-docs/6.2/Modules/List-of-modules/Content-Types-module.html[Content Types module^].
 // end::content-type[]
 
-// tag::poll
+// tag::poll[]
 |Polls
 |Made possible with the link:https://documentation.magnolia-cms.com/display/SERVICES/Poll+Module[Poll module^].
-// end::poll
+// end::poll[]
 
 // tag::others[]
 
