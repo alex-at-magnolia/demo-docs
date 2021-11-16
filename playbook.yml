@@ -18,7 +18,7 @@ urls:
 
 ui:
   bundle:
-    url: https://github.com/alex-at-magnolia/demo-docs-ui/files/7546712/ui-bundle.zip
+    url: https://github.com/alex-at-magnolia/demo-docs-ui/files/7548602/ui-bundle.zip
     snapshot: true
 
 # Global asciidoc attributes here
