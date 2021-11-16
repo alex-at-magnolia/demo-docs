@@ -45,6 +45,75 @@
 // end::focal-hotspot[]
 
 // tag::content-type[]
-|
-|
+|Content types
+|Made possible with the link:https://docs.magnolia-cms.com/product-docs/6.2/Modules/List-of-modules/Content-Types-module.html[Content Types module^].
 // end::content-type[]
+
+// tag::poll
+|Polls
+|Made possible with the link:https://documentation.magnolia-cms.com/display/SERVICES/Poll+Module[Poll module^].
+// end::poll
+
+// tag::others[]
+
+// tag::language-switcher[]
+|Language switcher
+|
+// end::language-switcher[]
+
+// tag::country-switcher[]
+|Country switcher
+|
+// end::country-switcher[]
+
+// tag::live-copy[]
+|link:https://docs.magnolia-cms.com/product-docs/6.2/Special-Features/Live-Copy.html[Live Copy^]
+|Made possible with the link:https://docs.magnolia-cms.com/product-docs/6.2/Special-Features/Live-Copy/Live-Copy-module.html[Live Copy module^].
+// end::live-copy[]
+
+// tag::word-ai[]
+|WordAI
+|Made possible with the link:https://documentation.magnolia-cms.com/display/SERVICES/WordAI[WordAI module^].
+// end::word-ai[]
+
+// tag::slack[]
+|Slack
+|Made possible by the link:https://docs.magnolia-cms.com/incubator-modules/index.html[Webhook module^].
+// end::slack[]
+
+// tag::abn[]
+|ABn testing
+|Made possible with the link:https://docs.magnolia-cms.com/product-docs/6.2/Special-Features/ABn-testing/ABn-testing-module.html[ABn module^].
+// end::abn[]
+
+// tag::deepl[]
+|Translation
+|Made possible with the link:https://marketplace.magnolia-cms.com/detail/deepl-translator.html[DeepL Translator module^].
+// end::deepl[]
+
+// tag::mobify[]
+|Mobify (PWA)
+|
+// end::mobify[]
+
+// tag::siteimprove[]
+|SEO
+|Made possible with the link:https://docs.magnolia-cms.com/product-docs/6.2/Connector-Packs/Optimization-Connector-Pack/Siteimprove-module.html[Siteimproe module^].
+// end::siteimprove[]
+
+// tag::analytics[]
+|Analytics
+|Made possible with the link:https://docs.magnolia-cms.com/product-docs/6.2/Connector-Packs/Analytics-Connector-Pack.html[Analytics connector pack^]
+// end::analytics[]
+
+// tag::autotagging-images[]
+|Auto-tagging images
+|
+// end::autotagging-images[]
+
+// tag::cloudinary[]
+|Cloudinary media library widget
+|
+// end::cloudinary[]
+
+// end::others[]

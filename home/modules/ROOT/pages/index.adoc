@@ -25,12 +25,9 @@ icon:cog[spin] This page is a _work in progress_ as of {localdate}. Please bear 
 
 |===
 
+NOTE: The sections below provide you with a quick view into the site page and lists the modules that contribute to building the page.
 
-== The Demo Pages
-
-The sections below provide you with a quick view into the site page and lists the modules that contribute to building the page.
-
-=== Home page
+== Home page
 
 ++++
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" title="Magnolia e-commerce demo page"></iframe>
@@ -38,10 +35,10 @@ The sections below provide you with a quick view into the site page and lists th
 
 
 // features
-:features: carousel,color-picker
-include::partial$r_magnolia-features.adoc[leveloffset=+3]
+:features: carousel,color-picker,campaign-manager,attraqt,component-personalization
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
 
-=== Subpages
+== Subpages
 
 The subpages consist of the *Living*, *Dining*, *Bathroom*, and *Garden* pages.
 
@@ -52,41 +49,51 @@ NOTE: The page previewed below is the *Living* page.
 ++++
 
 // features
-:features: dsfasd
-include::partial$r_magnolia-features.adoc[leveloffset=+3]
+:features: commercetools,filtering
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
 
-=== Inspirations page
+== Inspirations page
 
 ++++
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/inspirations" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-// features
-include::partial$r_magnolia-features.adoc[leveloffset=+3]
+// features#
+:features: commercetools,filtering
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
 
-=== Blog
+== Blog
 
 ++++
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/blog" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
 // features
-include::partial$r_magnolia-features.adoc[leveloffset=+3]
+:features: stories-app,focal-hotspot
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
 
-=== Events page
+== Events page
 
 ++++
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/events" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
 // features
-include::partial$r_magnolia-features.adoc[leveloffset=+3]
+:features: content-type
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
 
-=== Poll
+== Poll
 
 ++++
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/poll" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
 // features
-include::partial$r_magnolia-features.adoc[leveloffset=+3]
+:features: poll
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
+
+== Other features
+
+// features
+:features: others
+include::partial$r_magnolia-features.adoc[leveloffset=+2]
