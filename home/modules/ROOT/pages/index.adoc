@@ -2,7 +2,7 @@
 
 This site is a work-in-progress as of {localdate}.
 
-NOTE: The publish date is for icon:calendar[] 1st December.
+The publish date is for icon:calendar[] 1st December.::
 
 == Use kroki for diagrams
 
