@@ -1,10 +1,10 @@
-= {project} internal docs
+= {project}
 
 placeholder
 
 == Use kroki for diagrams
 
-.User login flow example (from MT)
+.Major Tom exmaple
 [mermaid,role="zoom"]
 ....
 sequenceDiagram
