@@ -1,0 +1,17 @@
+
+// tag::carousel[]
+|Carousel
+|The carousel does support video.
+// end::carousle[]
+
+|link:https://marketplace.magnolia-cms.com/detail/javascript-dialog-fields.html[JS Dialog Fields module^]
+|Text colour picker
+
+|link:https://marketplace.magnolia-cms.com/detail/campaign-manager.html[Campaign manager module^]
+|
+
+|Attraqt product recommendation, upsell and cross-sell
+|
+
+|link:https://docs.magnolia-cms.com/product-docs/6.2/Features/Personalization/Component-personalization.html[Component personalization^]
+|

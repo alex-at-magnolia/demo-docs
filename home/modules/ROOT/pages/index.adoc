@@ -5,7 +5,7 @@ include::partial$styles.adoc[]
 
 This site is here to provide you with information on our Magnolia e-commerce demo site. We hope to provide you with a good understanding of each of demo pages as well as what Magnolia modules make up that particular page.
 
-icon:cogs[spin] This page is a _work in progress_ as of {localdate}. Please bear with us while we continue to improve the site.
+icon:cog[spin] This page is a _work in progress_ as of {localdate}. Please bear with us while we continue to improve the site.
 
 [cols="3s,7a"]
 |===
@@ -37,15 +37,8 @@ The sections below provide you with a quick view into the site page and lists th
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-==== Modules
-
-[cols="3s,7a"]
-|===
-|Module |Notes
-
-include::partial$r_magnolia-modules.adoc[]
-
-|===
+// modules
+include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 
 === Subpages
 
@@ -57,15 +50,8 @@ NOTE: The page previewed below is the *Living* page.
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/living" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-==== Modules
-
-[cols="3s,7a"]
-|===
-|Module |Notes
-
-include::partial$r_magnolia-modules.adoc[]
-
-|===
+// modules
+include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 
 === Inspirations page
 
@@ -73,15 +59,8 @@ include::partial$r_magnolia-modules.adoc[]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/inspirations" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-==== Modules
-
-[cols="3s,7a"]
-|===
-|Module |Notes
-
-include::partial$r_magnolia-modules.adoc[]
-
-|===
+// modules
+include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 
 === Blog
 
@@ -89,15 +68,8 @@ include::partial$r_magnolia-modules.adoc[]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/blog" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-==== Modules
-
-[cols="3s,7a"]
-|===
-|Module |Notes
-
-include::partial$r_magnolia-modules.adoc[]
-
-|===
+// modules
+include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 
 === Events page
 
@@ -105,27 +77,14 @@ include::partial$r_magnolia-modules.adoc[]
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/events" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-==== Modules
+// modules
+include::partial$r_magnolia-modules.adoc[leveloffset=+3]
 
-[cols="3s,7a"]
-|===
-|Module |Notes
-
-include::partial$r_magnolia-modules.adoc[]
-
-|===
 === Poll
 
 ++++
 <iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/poll" title="Magnolia e-commerce demo page"></iframe>
 ++++
 
-==== Modules
-
-[cols="3s,7a"]
-|===
-|Module |Notes
-
-include::partial$r_magnolia-modules.adoc[]
-
-|===
+// modules
+include::partial$r_magnolia-modules.adoc[leveloffset=+3]
