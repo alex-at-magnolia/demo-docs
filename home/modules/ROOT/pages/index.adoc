@@ -3,7 +3,7 @@
 // just styles for the iframes
 include::partial$styles.adoc[]
 
-This site is here to provide you with information on our Magnolia e-commerce demo site. We hope to provide you with a good understanding of each of demo pages as well as what Magnolia modules make up that particular page.
+This site is here to provide you with information on our Magnolia e-commerce demo site. We hope to provide you with a good understanding of each of the demo pages as well as what Magnolia modules make up that particular page.
 
 icon:cog[spin] This page is a _work in progress_ as of {localdate}. Please bear with us while we continue to improve the site.
 
