@@ -8,6 +8,7 @@ site:
 content:
   sources:
   - url: .
+    edit_url_pattern: https://github.com/alex-at-magnolia/demo-docs/blog/{ref}/f/{path}
     branches: HEAD
     start_paths:
       - home
