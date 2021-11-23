@@ -1,1 +1,1 @@
-* xref:index.adoc[Contribute]
+* xref:index.adoc[Contribute icon:pencil-square-o[]]
