@@ -35,6 +35,8 @@ asciidoc:
     company: Magnolia
     magnolia-latest-version: 6.2.13
     demo-docs-git: https://github.com/alex-at-magnolia/demo-docs.git
+    ps-netlify-link: https://app.netlify.com/teams/magnolia-services/overview
+    demo-docs-repo: https://github.com/alex-at-magnolia/demo-docs
   extensions:
   - ./lib/tabs-block.js
   - asciidoctor-kroki
