@@ -3,6 +3,7 @@ title: Magnolia Demo Docs Home
 version: master
 nav:
 - modules/ROOT/nav.adoc
+- modules/contribute/nav.adoc
 
 asciidoc:
   attributes:
