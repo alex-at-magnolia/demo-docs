@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Magnolia Demo Documentation :: Magnolia Demo Docs Site</title>
     <link rel="canonical" href="https://magnolia-demo-docs.netlify.app/home/">
+    <link rel="next" href="demo-tutorial/">
     <meta name="generator" content="Antora 2.3.3">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 
@@ -42,7 +43,7 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="search-input-wrapper">
-  <input type="search" placeholder="Search the docs..." name="search" id="searchBar">
+  <input type="search" placeholder="Search the docs..." name="search" id="searchBar" disabled>
   <span class="search-input-wrapper__icon">
      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5674 3.36217C13.8338 5.63019 13.8338 9.30738 11.5674 11.5754C9.30093 13.8434 5.62629 13.8434 3.35984 11.5754C1.09339 9.30738 1.09339 5.63019 3.35984 3.36217C5.62629 1.09415 9.30093 1.09415 11.5674 3.36217ZM13.4909 11.8755C15.6297 8.95372 15.3798 4.82804 12.7412 2.18756C9.82645 -0.729186 5.10076 -0.729186 2.18604 2.18756C-0.72868 5.1043 -0.72868 9.83327 2.18604 12.75C4.8246 15.3904 8.94724 15.6406 11.867 13.5005L14.3648 16L15.9887 14.375L13.4909 11.8755Z" fill="#A8A8A8"/>
@@ -52,7 +53,7 @@
       <div class="navbar-end">
         <div class="navbar-item navbar-item--button">
           <span class="control">
-            <a class="button is-primary" href="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" target="_blank">Live Demo</a>
+            <a class="button is-primary" href="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" target="_blank"> <i class="fa fa-laptop" aria-hidden="true" style="margin-right: 2px;"></i> Live Demo</a>
           </span>
         </div>
       </div>
@@ -73,6 +74,19 @@
 <ul class="nav-list">
   <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="./">Welcome</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="demo-tutorial/">Demo tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="technical-information/">Technical information</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="contribute/">Contribute <span class="icon"><i class="fa fa-pencil-square-o"></i></span></a>
   </li>
 </ul>
   </li>
@@ -122,22 +136,400 @@
 <h1 class="page">Magnolia Demo Documentation</h1>
 <div id="preamble">
 <div class="sectionbody">
+<style>
+
+iframe {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+</style>
 <div class="paragraph">
-<p>placeholder</p>
+<p>This site is here to provide you with information on our Magnolia e-commerce demo site. We hope to provide you with a good understanding of each of the demo pages as well as what Magnolia modules make up that particular page.</p>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-cog fa-spin"></i></span> This page is a <em>work in progress</em> as of 2021-11-23. Please bear with us while we continue to improve the site.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Site</th>
+<th class="tableblock halign-left valign-top">URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Live</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><a href="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" class="bare" target="_blank" rel="noopener">https://ecommerce-headless-public.magnolia-cms-demo.com/home/</a></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Author</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><a href="http://ecommerce-headless-author.magnolia-cms-demo.com/" class="bare" target="_blank" rel="noopener">http://ecommerce-headless-author.magnolia-cms-demo.com/</a></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Public</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><a href="https://ecommerce-headless-public.magnolia-cms-demo.com/" class="bare" target="_blank" rel="noopener">https://ecommerce-headless-public.magnolia-cms-demo.com/</a></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Source repository (<code>git</code>)</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><a href="https://git.magnolia-cms.com/projects/DEMOS/repos/services-demos-common/browse" class="bare" target="_blank" rel="noopener">https://git.magnolia-cms.com/projects/DEMOS/repos/services-demos-common/browse</a></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The sections below provide you with a quick view into the site page and lists the modules that contribute to building the page.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_use_kroki_for_diagrams"><a class="anchor" href="#_use_kroki_for_diagrams"></a>Use kroki for diagrams</h2>
+<h2 id="_home_page"><a class="anchor" href="#_home_page"></a>Home page</h2>
 <div class="sectionbody">
-<div class="imageblock zoom kroki-format-svg kroki">
-<div class="content">
-<img src="_images/a9435dce5dd4ed003700be9409b6215671c6f1f3.svg" alt="diagram">
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/" title="Magnolia e-commerce demo page"></iframe>
+<div class="sect2">
+<h3 id="_features"><a class="anchor" href="#_features"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
 </div>
-<div class="title">Major Tom exmaple</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Carousel</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The carousel does support video.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Text color picker</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://marketplace.magnolia-cms.com/detail/javascript-dialog-fields.html" target="_blank" rel="noopener">JS Dialog Fields module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><a href="https://marketplace.magnolia-cms.com/detail/campaign-manager.html" target="_blank" rel="noopener">Campaign manager module</a></strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Attraqt product recommendation</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>This presents an opportunity to upsell and cross-sell.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><a href="https://docs.magnolia-cms.com/product-docs/6.2/Features/Personalization/Component-personalization.html" target="_blank" rel="noopener">Component personalization</a></strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_subpages"><a class="anchor" href="#_subpages"></a>Subpages</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The subpages consist of the <strong>Living</strong>, <strong>Dining</strong>, <strong>Bathroom</strong>, and <strong>Garden</strong> pages.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The page previewed below is the <strong>Living</strong> page.
+</td>
+</tr>
+</table>
+</div>
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/living" title="Magnolia e-commerce demo page"></iframe>
+<div class="sect2">
+<h3 id="_features_2"><a class="anchor" href="#_features_2"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><a href="https://marketplace.magnolia-cms.com/detail/commercetools.html" target="_blank" rel="noopener">Commercetools</a></strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Filtering</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_inspirations_page"><a class="anchor" href="#_inspirations_page"></a>Inspirations page</h2>
+<div class="sectionbody">
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/inspirations" title="Magnolia e-commerce demo page"></iframe>
+<div class="sect2">
+<h3 id="_features_3"><a class="anchor" href="#_features_3"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><a href="https://marketplace.magnolia-cms.com/detail/commercetools.html" target="_blank" rel="noopener">Commercetools</a></strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Filtering</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_blog"><a class="anchor" href="#_blog"></a>Blog</h2>
+<div class="sectionbody">
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/blog" title="Magnolia e-commerce demo page"></iframe>
+<div class="sect2">
+<h3 id="_features_4"><a class="anchor" href="#_features_4"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><a href="https://docs.magnolia-cms.com/product-docs/6.2/Apps/List-of-apps/Stories-app.html" target="_blank" rel="noopener">Stories app</a></strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Comes with internationalization.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Focal hotspots</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://marketplace.magnolia-cms.com/detail/image-focal-points.html" target="_blank" rel="noopener">DAM focal module</a>.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_events_page"><a class="anchor" href="#_events_page"></a>Events page</h2>
+<div class="sectionbody">
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/events" title="Magnolia e-commerce demo page"></iframe>
+<div class="sect2">
+<h3 id="_features_5"><a class="anchor" href="#_features_5"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Content types</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://docs.magnolia-cms.com/product-docs/6.2/Modules/List-of-modules/Content-Types-module.html" target="_blank" rel="noopener">Content Types module</a>.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_poll"><a class="anchor" href="#_poll"></a>Poll</h2>
+<div class="sectionbody">
+<iframe src="https://ecommerce-headless-public.magnolia-cms-demo.com/home/poll" title="Magnolia e-commerce demo page"></iframe>
+<div class="sect2">
+<h3 id="_features_6"><a class="anchor" href="#_features_6"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Polls</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://documentation.magnolia-cms.com/display/SERVICES/Poll+Module" target="_blank" rel="noopener">Poll module</a>.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_other_features"><a class="anchor" href="#_other_features"></a>Other features</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_features_7"><a class="anchor" href="#_features_7"></a>Features</h3>
+<div class="paragraph">
+<p>The Magnolia features that make up this page are:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Feature</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Language switcher</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Country switcher</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><a href="https://docs.magnolia-cms.com/product-docs/6.2/Special-Features/Live-Copy.html" target="_blank" rel="noopener">Live Copy</a></strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://docs.magnolia-cms.com/product-docs/6.2/Special-Features/Live-Copy/Live-Copy-module.html" target="_blank" rel="noopener">Live Copy module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>WordAI</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://documentation.magnolia-cms.com/display/SERVICES/WordAI" target="_blank" rel="noopener">WordAI module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Slack</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible by the <a href="https://docs.magnolia-cms.com/incubator-modules/index.html" target="_blank" rel="noopener">Webhook module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ABn testing</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://docs.magnolia-cms.com/product-docs/6.2/Special-Features/ABn-testing/ABn-testing-module.html" target="_blank" rel="noopener">ABn module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Translation</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://marketplace.magnolia-cms.com/detail/deepl-translator.html" target="_blank" rel="noopener">DeepL Translator module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Mobify (PWA)</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>SEO</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://docs.magnolia-cms.com/product-docs/6.2/Connector-Packs/Optimization-Connector-Pack/Siteimprove-module.html" target="_blank" rel="noopener">Siteimproe module</a>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Analytics</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Made possible with the <a href="https://docs.magnolia-cms.com/product-docs/6.2/Connector-Packs/Analytics-Connector-Pack.html" target="_blank" rel="noopener">Analytics connector pack</a></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Auto-tagging images</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Cloudinary media library widget</strong></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="next"><a href="demo-tutorial/">Demo tutorial</a></span>
+</nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>

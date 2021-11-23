@@ -1,3 +1,80 @@
-= Contribute to the docs
+= Contribute to the demo docs
 
-text
+This page guides you on how to contribute to the demo documentation. There are certain <<Prerequisites,prerequisites>> you need on your machine before contributing.
+
+TIP: You can check out the <<docs-structure,structure>> of the doc repo and antora. However, the most important step is ensuring you have the prerequisites and jumping right into contributing.
+
+[[doc-prerequisites]]
+[.collapse]
+Prerequisites
+
+[.collapse-content]
+You must have::
+
+* a text editor or IDE (such as link:https://atom.io/[Atom^], link:https://www.jetbrains.com/idea/[IntelliJ^], or link:https://code.visualstudio.com/[VS Code^]).
+* access to the Incubator module repo to which you want to contribute
+* link:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[git^]
+
+It's nice to have::
+
+* an asciidoc preview renderer
+** link:https://atom.io/packages/asciidoc-preview[Atom asciidoc^]
+** link:https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[VS Code asciidoc^]
+** link:https://plugins.jetbrains.com/plugin/7391-asciidoc[IntelliJ asciidoc^]
+
+[[docs-structure]]
+[.collapse]
+Structure
+
+[.collapse-content]
+Antora structure::
+
+The Demo module docs are built with link:https://antora.org/[Antora^]. Antora is a static-site generator for asciidoc. Antora is quite opinionated when it comes to where the docs live as it fetches from multiple repositories to build the site. In the case of the demo docs, your content (docs) folders are in the same repository as your antora-site.
++
+[mermaid]
+----
+flowchart TB
+    A[[Demo Docs Repo]]
+    A-->F[[docs]]
+    F-->G[[modules]]
+    G--module info and variables-->H(antora.yml)
+    G-->HOME
+    A--site info and variables-->T(playbook.yml)
+    subgraph HOME
+    direction TB
+        R[[attachments]]
+        R-->S(yaml,java)
+        J(nav.adoc)
+        L[[images]]
+        L-->Q(jpg,gif)
+        M[[pages]]
+        M-->O(*.adoc)
+        N[[partials]]
+        N-->P(*.adoc)      
+    end
+----
+
+Docs structure::
+
+The demo docs are structured the same way within the `/docs/` folder.
++
+.Repo structure
+[mermaid]
+----
+flowchart TB
+    F[[docs]]
+    F-->G[[modules/home]]
+    G-->I[[ROOT]]
+    I--the static pages-->PAGES
+        subgraph PAGES
+            N(index.adoc)
+        end
+    I-.content included in pages-->PARTIALS
+        subgraph PARTIALS
+            O(*.adoc)
+        end
+    O-->N
+----
+
+// instructions for contributing
+include::partial$p_contribute-to-docs.adoc[leveloffset=+1]

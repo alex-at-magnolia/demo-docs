@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://magnolia-demo-docs.netlify.app/home/</loc>
-<lastmod>2021-11-16T13:42:59.124Z</lastmod>
+<lastmod>2021-11-23T09:34:51.752Z</lastmod>
+</url>
+<url>
+<loc>https://magnolia-demo-docs.netlify.app/home/contribute/</loc>
+<lastmod>2021-11-23T09:34:51.752Z</lastmod>
+</url>
+<url>
+<loc>https://magnolia-demo-docs.netlify.app/home/demo-tutorial/</loc>
+<lastmod>2021-11-23T09:34:51.752Z</lastmod>
+</url>
+<url>
+<loc>https://magnolia-demo-docs.netlify.app/home/technical-information/</loc>
+<lastmod>2021-11-23T09:34:51.752Z</lastmod>
 </url>
 </urlset>

@@ -34,6 +34,7 @@ asciidoc:
     gpl: link:http://www.gnu.org/licenses/gpl-3.0.html[GPL^]
     company: Magnolia
     magnolia-latest-version: 6.2.13
+    demo-docs-git: https://github.com/alex-at-magnolia/demo-docs.git
   extensions:
   - ./lib/tabs-block.js
   - asciidoctor-kroki

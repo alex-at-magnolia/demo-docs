@@ -1,0 +1,17 @@
+= Get started icon:rocket[]
+
+So, how does it all work?
+
+[NOTE.alt,caption="Did you get set up?"]
+====
+Make sure you have all your <<doc-prerequisites,prerequisites>> before starting the instructions below.
+====
+
+== Instructions
+
+. Clone the demo docs repository:
++
+[source,sh,subs="attributes"]
+----
+{demo-docs-git}
+----
